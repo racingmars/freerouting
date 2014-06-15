@@ -3,7 +3,7 @@ Freerouting
 
 FreeRouting interactive push &amp; shove router
 
-Works with FreePCB, KiCad, gEDA, CadSoft-Eagle and other PCB design software with an 
+Works with FreePCB, KiCad, gEDA, CadSoft-Eagle and other PCB design software with an
 interface to the Specctra or Electra autorouter.
 
 Developed by Alfons Wirtz and open sourced under GPLv3 license.
@@ -14,4 +14,9 @@ Website link http://www.freerouting.net/
 
 Introduction http://www.freerouting.net/pages/description.html
 
+Maven Project
+-------------
 
+This fork rearranges the source files and provides a Maven project file for easy building.
+
+Run `mvn package` to create an executable JAR in the `target` directory. Run `mvn exec:java` to run FreeRouting.
